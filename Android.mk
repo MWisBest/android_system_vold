@@ -53,6 +53,7 @@ common_shared_libraries := \
 common_static_libraries := \
 	libfs_mgr \
 	libstlport_static \
+	libscrypt_static \
 	libmincrypt
 
 include $(CLEAR_VARS)
