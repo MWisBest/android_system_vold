@@ -43,8 +43,8 @@
 
 #include "F2FS.h"
 
-static char F2FS_FSCK[] = HELPER_PATH "fsck.f2fs";
-static char F2FS_MKFS[] = HELPER_PATH "mkfs.f2fs";
+static char F2FS_FSCK[] = "/system/bin/fsck.f2fs";
+static char F2FS_MKFS[] = "/system/bin/mkfs.f2fs";
 
 int F2FS::doMount(const char *fsPath, const char *mountPoint, bool ro, bool
         remount, bool executable, bool sdcard) {
